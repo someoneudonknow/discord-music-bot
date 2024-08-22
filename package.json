@@ -1,0 +1,33 @@
+{
+  "name": "discord_music_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "dev": "tsx watch src/bot.ts",
+    "start": "node dist/bot.js",
+    "build": "tsc"
+  },
+  "author": "Tran Tu",
+  "license": "ISC",
+  "dependencies": {
+    "@discord-player/extractor": "^4.5.1",
+    "@discordjs/rest": "^2.3.0",
+    "@discordjs/voice": "^0.17.0",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "chalk": "^5.3.0",
+    "discord-api-types": "^0.37.94",
+    "discord-player": "^6.7.1",
+    "discord-player-youtubei": "^1.2.6",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "mediaplex": "^0.0.9",
+    "play-dl": "^1.9.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.4.1",
+    "tsx": "^4.17.0",
+    "typescript": "^5.5.4"
+  }
+}
