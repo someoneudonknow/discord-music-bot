@@ -53,6 +53,7 @@ This Discord music bot is designed to provide a simple and straightforward way t
 18. **Skipto**: Skip to a specific position in the queue.
 19. **Stop**: Stop the player.
 20. **Vocalboost**: Toggle the vocal boost filter.
+21. **Help**: See all commands info
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
