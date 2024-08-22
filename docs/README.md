@@ -3,15 +3,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-  </p>
+  <img src="./assets/music_player_discord_bot_logo.png" alt="Logo" width="80" height="80">
+  <h3 align="center">Simple Discord Music Bot</h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -27,13 +20,9 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -84,45 +73,36 @@ This Discord music bot is designed to provide a simple and straightforward way t
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/someoneudonknow/tymphany-discord_bot-.git
+   git clone https://github.com/someoneudonknow/discord-music-bot.git
    ```
 2. Install NPM packages
    ```sh
    npm install
    ```
 3. Config the bot
-   ```js
-   const API_KEY = "ENTER YOUR API";
-   ```
-4. Change git remote url to avoid accidental pushes to base project
+
+   - Create a discord bot and get the required info
+   - create and .env file and add these variables
+
    ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
+    NODE_ENV=<dev-OR-prod>
+
+    DISCORD_TOKEN_DEV=<YOUR-BOT-TOKEN-IN-DEV-MODE>
+    DISCORD_CLIENT_ID_DEV=<YOUR-CLIENT-ID-IN-DEV-MODE>
+    DISCORD_APP_ID_DEV=<YOUR-APP-ID-IN-DEV-MODE>
+
+    DISCORD_TOKEN_PROD=<YOUR-BOT-TOKEN-IN-PRODUTION-MODE>
+    DISCORD_CLIENT_ID_PROD=<YOUR-CLIENT-ID-IN-PRODUTION-MODE>
+    DISCORD_APP_ID_PROD=<YOUR-CLIENT-ID-IN-PRODUTION-MODE>
+   ```
+
+4. Run and build the bot
+   ```sh
+   npm run dev #for run
+   npm run build #for build
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTACT -->
-
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
 
 ## Acknowledgments
 
@@ -132,10 +112,3 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 - [Typescript handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-
-[Typescript.com]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
-[Typescript-url]: https://www.typescriptlang.org/
-[Nodejs.com]: https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
-[Nodejs-url]: https://nodejs.org/en
