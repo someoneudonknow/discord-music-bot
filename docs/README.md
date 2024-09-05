@@ -1,35 +1,12 @@
-<a id="readme-top"></a>
-
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <img src="./assets/music_player_discord_bot_logo.png" alt="Logo" width="80" height="80">
   <h3 align="center">Simple Discord Music Bot</h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details open>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
 ## About The Project
 
-This Discord music bot is designed to provide a simple and straightforward way to play music in your Discord server. It includes a set of basic commands to help you queue, play, and control the music playback.
+This features rich discord music bot is designed to provide a simple and straightforward way to play music in your Discord server. It includes a set of basic commands to help you queue, play, and control the music playback.
 
 ### Key Features
 
@@ -55,16 +32,12 @@ This Discord music bot is designed to provide a simple and straightforward way t
 20. **Vocalboost**: Toggle the vocal boost filter.
 21. **Help**: See all commands info
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Built With
 
 - [Node.js](https://nodejs.org/en) - A JavaScript runtime environment for server-side development.
 - [TypeScript](https://www.typescriptlang.org/) - A statically typed superset of JavaScript that compiles to plain JavaScript.
 - [Discord.js v14.15.3](https://discord.js.org/docs/packages/discord.js/14.15.3) - A powerful JavaScript library for interacting with the Discord API.
 - [Discord Player js](https://discord-player.js.org/) - A robust framework for developing Discord Music bots using JavaScript and TypeScript.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -103,13 +76,9 @@ This Discord music bot is designed to provide a simple and straightforward way t
    npm run build #for build
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Acknowledgments
 
 - [Discordjs guide](https://discordjs.guide/)
 - [Discordjs v14.15.3 docs](https://discord.js.org/docs/packages/discord.js/14.15.3)
 - [Discord player js](https://discord-player.js.org/)
 - [Typescript handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
